@@ -49,7 +49,7 @@ $(document).ready(function(){
         var nrSlides;
         var css3dTransforms = false;
 
-        var transformPrefix;
+        var transformPrefix; // HOLDS the css vendor prefix
 
         obj.init = function(_carousel,_navigationItems){    	
             carousel = _carousel;            
