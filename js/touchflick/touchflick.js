@@ -156,12 +156,13 @@ $(document).ready(function(){
 
             hammertime.on("panstart", function(ev) {
                 
+                // DONT ANIMATE WHEN PANNING
                 isPanning = true;
-                var matrix = carouselWrapper.css(transformPrefix);                
-                console.log('matrix: ' + matrix);
+                
+                // RESET THE STARTPOS VALUES (NEEDED WHILE PANNING)
+                var matrix = carouselWrapper.css(transformPrefix);                                
                 startPos = Number(matrix.split('(')[1].split(')')[0].split(',')[4]);
                 
-                //startPos = parseInt(carouselWrapper.css('translate').split(',')[0]);                                    
             });
 
             //
