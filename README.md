@@ -8,6 +8,10 @@ This a very straightforward implementation, not a plugin, allowing you to see an
 
 Currently does not support multiple carousels on the same page or carousel-deletion, so handle with care!
 
+## Demo
+
+See it in action at: http://touch.studiodeeg.nl
+
 ## Requirements
 
 # Hammer.js
