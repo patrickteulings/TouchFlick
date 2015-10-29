@@ -10,7 +10,7 @@ Currently does not support multiple carousels on the same page or carousel-delet
 
 ## Demo
 
-See it in action at: http://touch.studiodeeg.nl
+See it in action at: http://touchflick.studiodeeg.nl
 
 ## Requirements
 
